@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-learning-ts9k.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,19 +9,19 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-learning-ts9k.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/50a0fa2f-dfa4-4cb9-b947-f915a6d843de
+PUT https://node-learning-ts9k.onrender.com/videos/e355003c-8ece-4778-b664-b6040fbf5932
 Content-Type: application/json
 
 {
-    "title": "Video 02",
+    "title": "Video 05",
     "description": "Esse é o terceiro vídeo", 
     "duration": 180
 }
 
 ###
 
-DELETE http://localhost:3333/videos/50a0fa2f-dfa4-4cb9-b947-f915a6d843de
+DELETE https://node-learning-ts9k.onrender.com/videos/0f142f3c-c274-4457-8e6f-40eae79efa3f
